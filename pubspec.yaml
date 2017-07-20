@@ -1,0 +1,13 @@
+name: graphql
+version: 1.0.0-alpha
+description: Provides support for querying objects using GraphQL.
+author: Tobe O <thosakwe@gmail.com>
+homepage: https://github.com/thosakwe/graphql
+environment:
+  sdk: ">=1.19.0"
+dependencies:
+  graphql_parser: ^1.0.0
+  graphql_schema: ^1.0.0-beta
+  symbol_table: ^1.0.0
+dev_dependencies:
+  test: ^0.12.0
